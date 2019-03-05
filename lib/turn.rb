@@ -22,6 +22,7 @@ end
 
 def move(board, index, mark = "X")
   board[index] == mark
+  board
 end
 
 def valid_move?(board, index)
