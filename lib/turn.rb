@@ -20,8 +20,7 @@ def display_board(board)
 end
 
 def move(board, index, mark = "X")
-  board[index] == mark
-  board
+  board[index] = mark
 end
 
 def valid_move?(board, index)
