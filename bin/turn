@@ -6,4 +6,3 @@ board = [" "," "," "," "," "," "," "," "," "]
 puts "Welcom to Tic Tac Toe!"
 display_board(board)
 turn(board)
-display_board(board)
